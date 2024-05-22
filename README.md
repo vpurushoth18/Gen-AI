@@ -13,6 +13,7 @@
     - Please check our [project page](https://sv3d.github.io), [tech report](https://sv3d.github.io/static/paper.pdf) and [video summary](https://youtu.be/Zqw4-1LcfWg) for more details.
 
 To run **SV3D_u** on a single image:
+
 - Download `sv3d_u.safetensors` from https://huggingface.co/stabilityai/sv3d to `checkpoints/sv3d_u.safetensors`
 - Run `python scripts/sampling/simple_video_sample.py --input_path <path/to/image.png> --version sv3d_u`
 
